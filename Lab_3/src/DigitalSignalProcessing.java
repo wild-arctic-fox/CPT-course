@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
@@ -70,4 +71,45 @@ public class DigitalSignalProcessing {
     private static double add(double a, double b) {
         return a + (b - m) * (b - m);
     }
+
+
+    /**
+     * Функція автокореляції дискретного сигналу
+     *
+     * @param numbers - значення відліків оброблюваного сигналу
+     * @return значення автокореляції
+     */
+    public static List<Double> getDiscreteSignalAutocorrelationFunction(List<Integer> numbers) {
+        List<Double> autocorrelation = new ArrayList<>();
+        double tmp;
+        for (int t = 0; t <= 5; t++) {
+            tmp = 0;
+            for (int i = 0; i < numbers.size() - t - 1; i++) {
+                tmp += (numbers.get(i + t) - m) * (numbers.get(i) - m);
+            }
+            autocorrelation.add(tmp / numbers.size() - t);
+        }
+        return autocorrelation;
+    }
+
+
+    /**
+     * Інтервал кореляції:
+     *
+     * @return інтервал кореляції
+     */
+    public static double getCorrelationInterval(List<Integer> numbers, List<Double> autocorrelation) {
+        double tau;
+        double Rxxj = 0;
+        double Rxx0 = 0;
+        for (Double aDouble : autocorrelation) {
+            Rxxj += aDouble;
+        }
+        for (int i = 0, t = 0; i < numbers.size() - t - 1; i++) {
+            Rxx0 += (numbers.get(i + t) - m) * (numbers.get(i) - m);
+        }
+        tau = Rxxj / Rxx0;
+        return tau;
+    }
+
 }

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a1ac315-0b83-4a60-8ac6-c47570f0b943" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab_3/src/tic/Qwertyu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_1/src/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_1/src/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_IntelliJ IDEA/HelloWorldApp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_IntelliJ IDEA/HelloWorldApp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_IntelliJ IDEA/HelloWorldApp/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_IntelliJ IDEA/HelloWorldApp/HelloWorldApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_IntelliJ IDEA/HelloWorldApp/src/HelloWorldApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/awtui/AboutDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/awtui/Logo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/awtui/ProgressBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/awtui/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/extensions/ActiveTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/extensions/ExceptionTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/extensions/RepeatedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/extensions/TestDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/extensions/TestSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/Assert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/AssertionFailedError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/ComparisonFailure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/Protectable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/TestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/TestFailure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/TestListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/TestResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/framework/TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/BaseTestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/ClassPathTestCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/FailureDetailView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/LoadingTestCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/ReloadingTestSuiteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/SimpleTestCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/Sorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/StandardTestSuiteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/TestCaseClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/TestCollector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/TestRunListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/TestSuiteLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/Version.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/excluded.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/runner/smalllogo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/VectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/money/IMoney.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/money/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/money/MoneyBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/samples/money/MoneyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/AboutDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/CounterPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/DefaultFailureDetailView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/FailureRunView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/ProgressBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/StatusLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestHierarchyRunView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestRunContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestRunView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestSuitePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/TestTreeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/icons/error.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/icons/failure.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/icons/hierarchy.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/swingui/icons/ok.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/WasRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/extensions/ActiveTestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/extensions/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/extensions/ExceptionTestCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/extensions/ExtensionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/extensions/RepeatedTestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/AssertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/ComparisonFailureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/DoublePrecisionAssertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/Failure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/InheritedTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/NoArgTestCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/NoTestCaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/NoTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/NotPublicTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/NotVoidTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/OneTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/OverrideTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/Success.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/SuiteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/TestCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/TestImplementorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/framework/TestListenerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/AllTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/BaseTestRunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/ClassLoaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/LoadedFromJar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/SimpleTestCollectorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/SorterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/StackFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/TestCaseClassLoaderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/TextFeedbackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/tests/runner/TextRunnerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/textui/ResultPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/junit/textui/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_2_eclipse/src/test/MyTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab_3/src/DigitalSignalProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab_3/src/DigitalSignalProcessing.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\Desktop\java\CPT-course\Lab_2\Lab_2_Library\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iSHMhcADjrVtmzvO0ZPPGn8CYO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LibClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab_2_Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Library" />
+      <option name="MAIN_CLASS_NAME" value="Library.LibClassTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LibClassTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a1ac315-0b83-4a60-8ac6-c47570f0b943" name="Default Changelist" comment="" />
+      <created>1601894026728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601894026728</updated>
+      <workItem from="1601894028621" duration="618000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1601894652580">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1601894652580" />
+    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1601894652580">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1601894652580" />
+    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1601894652579">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1601894652579" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1601894652580">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1601894652580" />
+    <state x="498" y="345" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601894150801">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="498" y="345" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.40.1536.824@0.40.1536.824" timestamp="1601894150801" />
+    <state x="209" y="72" key="new project wizard" timestamp="1601894349054">
+      <screen x="0" y="40" width="1536" height="824" />
+    </state>
+    <state x="209" y="72" key="new project wizard/0.40.1536.824@0.40.1536.824" timestamp="1601894349054" />
+  </component>
+</project>
