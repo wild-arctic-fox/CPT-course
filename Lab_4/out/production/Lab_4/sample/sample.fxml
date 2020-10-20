@@ -1,0 +1,203 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<GridPane fx:controller="sample.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="682.0" prefWidth="836.0"
+                xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <Pane layoutX="14.0" layoutY="146.0" prefHeight="123.0" prefWidth="738.0"
+                  style="-fx-background-color: #B1983B;">
+                <children>
+                    <Label alignment="CENTER" layoutY="14.0" prefHeight="27.0" prefWidth="145.0" style="&#10;"
+                           text="Coffee Machine" textAlignment="CENTER" wrapText="false">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                    </Label>
+                    <Button fx:id="coffeeBtn" layoutX="355.0" layoutY="80.0" mnemonicParsing="false"
+                            onAction="#clickCoffee" text="Make Coffee"/>
+                    <Slider fx:id="coffeeSugar" layoutX="234.0" layoutY="21.0" majorTickUnit="10.0" prefHeight="37.0"
+                            prefWidth="478.0" showTickLabels="true" showTickMarks="true" value="20.0"/>
+                    <Label layoutX="150.0" layoutY="19.0" prefHeight="17.0" prefWidth="68.0" text="Sugar"/>
+                    <ChoiceBox fx:id="coffeeType" layoutX="562.0" layoutY="80.0" prefWidth="150.0" value="Americano">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="Espresso"/>
+                                <String fx:value="Ristretto"/>
+                                <String fx:value="Doppio"/>
+                                <String fx:value="Americano"/>
+                                <String fx:value="Batch_Brew"/>
+                                <String fx:value="Drip_Coffee"/>
+                                <String fx:value="Chemex"/>
+                                <String fx:value="French_Press"/>
+                                <String fx:value="Latte"/>
+                                <String fx:value="Frappuccino"/>
+                                <String fx:value="Macchiato"/>
+                                <String fx:value="Irish_Coffee"/>
+                            </FXCollections>
+                        </items>
+                    </ChoiceBox>
+                    <Label layoutX="511.0" layoutY="84.0" prefHeight="17.0" prefWidth="35.0" text="Type"/>
+                </children>
+            </Pane>
+
+
+            <Pane layoutX="14.0" layoutY="14.0" prefHeight="123.0" prefWidth="738.0"
+                  style="-fx-background-color: #9CA10D;">
+                <children>
+                    <Label alignment="CENTER" layoutY="14.0" prefHeight="27.0" prefWidth="145.0" style="&#10;"
+                           text="Kettle" textAlignment="CENTER" wrapText="false">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                    </Label>
+                    <Button fx:id="kettleBtn" layoutX="355.0" layoutY="80.0" mnemonicParsing="false"
+                            onAction="#clickKettle" text="Use Kettle"/>
+                    <Slider fx:id="kettleTemp" blockIncrement="10.0" layoutX="222.0" layoutY="21.0" majorTickUnit="10.0"
+                            prefHeight="37.0" prefWidth="490.0" showTickLabels="true" showTickMarks="true"
+                            value="100.0"/>
+                    <Label layoutX="116.0" layoutY="19.0" prefHeight="17.0" prefWidth="102.0" text="Temperature"/>
+                    <Label layoutX="511.0" layoutY="84.0" prefHeight="17.0" prefWidth="35.0" text="Time"/>
+                    <CheckBox onAction="#checkKettlePower" fx:id="kettlePower" layoutX="162.0" layoutY="84.0"
+                              mnemonicParsing="false"
+                              prefHeight="17.0" prefWidth="131.0" text="Power"/>
+                    <TextArea fx:id="kettleTime" layoutX="558.0" layoutY="74.0" prefHeight="37.0" prefWidth="145.0"/>
+                </children>
+                <opaqueInsets>
+                    <Insets/>
+                </opaqueInsets>
+            </Pane>
+
+
+            <Pane layoutX="14.0" layoutY="277.0" prefHeight="240.0" prefWidth="224.0"
+                  style="-fx-background-color: #EBED0F;">
+                <children>
+                    <Label alignment="CENTER" layoutY="14.0" prefHeight="27.0" prefWidth="145.0" style="&#10;"
+                           text="Lamp" textAlignment="CENTER" wrapText="false">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                    </Label>
+                    <Button fx:id="lampBtn" layoutX="30.0" layoutY="201.0" mnemonicParsing="false" text="Use Lamp"
+                            onAction="#clickLamp"/>
+                    <Slider fx:id="lampBri" blockIncrement="25.0" layoutX="139.0" layoutY="53.0" orientation="VERTICAL"
+                            prefHeight="179.0" prefWidth="76.0" showTickLabels="true" showTickMarks="true"
+                            value="50.0"/>
+                    <Label layoutX="135.0" layoutY="19.0" prefHeight="17.0" prefWidth="83.0" text="Brightness"/>
+                    <CheckBox fx:id="lampPower" layoutX="46.0" layoutY="75.0" mnemonicParsing="false"
+                              onAction="#checkLampPower" prefHeight="17.0" prefWidth="131.0" text="Power"/>
+                    <ChoiceBox fx:id="lampColor" layoutX="23.0" layoutY="143.0" prefHeight="25.0" prefWidth="83.0"
+                               value="White">
+                        <items>
+                            <FXCollections fx:factory="observableArrayList">
+                                <String fx:value="White"/>
+                                <String fx:value="Yellow"/>
+                            </FXCollections>
+                        </items>
+                    </ChoiceBox>
+                    <Label layoutX="25.0" layoutY="108.0" prefHeight="17.0" prefWidth="61.0" text="Color"/>
+                </children>
+                <opaqueInsets>
+                    <Insets/>
+                </opaqueInsets>
+            </Pane>
+            <Pane layoutX="249.0" layoutY="277.0" prefHeight="240.0" prefWidth="502.0"
+                  style="-fx-background-color: #64D346;">
+                <children>
+                    <Label alignment="CENTER" layoutY="14.0" prefHeight="27.0" prefWidth="145.0" style="&#10;" text="TV"
+                           textAlignment="CENTER" wrapText="false">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                    </Label>
+                    <Button fx:id="tvBtn" layoutX="225.0" layoutY="177.0" mnemonicParsing="false" onAction="#clickTV"
+                            text="Use TV"/>
+                    <Slider fx:id="tvVolume" blockIncrement="1.0" layoutX="139.0" layoutY="53.0" majorTickUnit="3.0"
+                            prefHeight="53.0" prefWidth="347.0" showTickLabels="true" showTickMarks="true" value="8.0"/>
+                    <Label layoutX="271.0" layoutY="19.0" prefHeight="17.0" prefWidth="83.0" text="Volume"/>
+                    <CheckBox onAction="#checkTVPower" fx:id="tvPower" layoutX="46.0" layoutY="75.0"
+                              mnemonicParsing="false"
+                              prefHeight="17.0" prefWidth="131.0" text="Power"/>
+                    <ChoiceBox fx:id="tvChannels" layoutX="354.0" layoutY="113.0" prefHeight="25.0" prefWidth="124.0" value="ABC">
+                        <String fx:value="ABC"/>
+                        <String fx:value="CBS"/>
+                        <String fx:value="NBC"/>
+                        <String fx:value="FOX"/>
+                        <String fx:value="CW"/>
+                        <String fx:value="GPB"/>
+                        <String fx:value="CHEDDAR"/>
+                        <String fx:value="UNIVERSITY"/>
+                        <String fx:value="BBC_AMERICA"/>
+                        <String fx:value="CNN"/>
+                        <String fx:value="HEADLINE_NEWS"/>
+                        <String fx:value="FOX_NEWS"/>
+                        <String fx:value="THE_WEATHER_CHANNEL"/>
+                        <String fx:value="FOX_BUSINESS_CHANNEL"/>
+                        <String fx:value="MSNBC"/>
+                        <String fx:value="BLOOMBERG"/>
+                        <String fx:value="AMC_CHANNEL"/>
+                    </ChoiceBox>
+                    <Label layoutX="227.0" layoutY="117.0" prefHeight="17.0" prefWidth="102.0" text="Channels"/>
+                </children>
+                <opaqueInsets>
+                    <Insets/>
+                </opaqueInsets>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="528.0" prefHeight="141.0" prefWidth="738.0"
+                  style="-fx-background-color: #A896EE;">
+                <children>
+                    <Label alignment="CENTER" layoutY="14.0" prefHeight="27.0" prefWidth="145.0" style="&#10;"
+                           text="Microwave" textAlignment="CENTER" wrapText="false">
+                        <font>
+                            <Font size="18.0"/>
+                        </font>
+                    </Label>
+                    <Button fx:id="microwaveBtn" layoutX="353.0" layoutY="93.0" mnemonicParsing="false"
+                            onAction="#clickMicrowave" prefHeight="25.0" prefWidth="112.0" text="Use microwave"/>
+                    <Slider fx:id="microwaveTemp" blockIncrement="5.0" layoutX="234.0" layoutY="21.0"
+                            majorTickUnit="10.0" max="180.0" min="40.0" prefHeight="37.0" prefWidth="478.0"
+                            showTickLabels="true" showTickMarks="true" value="40.0"/>
+                    <Label layoutX="142.0" layoutY="19.0" prefHeight="17.0" prefWidth="76.0" text="Temperature"/>
+                    <ChoiceBox fx:id="microMode" layoutX="562.0" layoutY="80.0" prefWidth="150.0" value="Fan_oven">
+                        <String fx:value="Defrost"/>
+                        <String fx:value="Crisp"/>
+                        <String fx:value="Fan_oven"/>
+                        <String fx:value="Steam"/>
+                        <String fx:value="Grill"/>
+                        <String fx:value="Lower_heat"/>
+                        <String fx:value="Upper_heat"/>
+                    </ChoiceBox>
+
+                    <Label layoutX="511.0" layoutY="84.0" prefHeight="17.0" prefWidth="35.0" text="Type"/>
+                    <CheckBox onAction="#checkMicrowavePower" fx:id="microwavePower" layoutX="14.0" layoutY="64.0" mnemonicParsing="false"
+                              prefHeight="17.0" prefWidth="131.0" text="Power"/>
+                    <CheckBox onAction="#checkMicrowaveStop" fx:id="microwaveStop" layoutX="14.0" layoutY="97.0" mnemonicParsing="false"
+                              text="Stop"/>
+
+                    <TextField fx:id="microTime" layoutX="160.0" layoutY="98.0"/>
+                    <Label layoutX="100.0" layoutY="102.0" prefHeight="17.0" prefWidth="68.0" text="Time"/>
+                </children>
+            </Pane>
+            <Pane layoutX="769.0" layoutY="13.0" prefHeight="656.0" prefWidth="170.0">
+                <children>
+                    <TextArea fx:id="info" editable="false" layoutX="6.0" layoutY="14.0" prefHeight="634.0"
+                              prefWidth="150.0"/>
+                </children>
+            </Pane>
+        </children>
+    </AnchorPane>
+
+</GridPane>
